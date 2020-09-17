@@ -1,0 +1,25 @@
+#myvideo {
+    position:fixed;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+    #myvideo {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #myvideo { 
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #myvideo {
+        display: none;
+    }
+    body {
+        background: url('video.jpg');
+        background-size: cover;
+    }
+}
