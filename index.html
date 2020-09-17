@@ -3,12 +3,19 @@
   <head>
   <meta charset="utf-8">
   <style>
-    body {
-      background-image: url(webpagebackground.png);
-      background-repeat: no-repeat; 
-      background-attachement: fixed;
-      background-size: cover;}
+    <video autoplay muted loop id="myvideo">
+    <source src="video.mp4" type="video/mp4">
+    </video>
     </style>
+    
+    #myvideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    }
   <title> Osmandy's Programmin Portfolio</title>
   </head>
   <body>
