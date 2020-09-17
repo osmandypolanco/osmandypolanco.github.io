@@ -1,25 +1,18 @@
-#myvideo {
-    position:fixed;
-    z-index: -1;
+h1 {
+   color: rgb(255,255,255);
+   text-align:center;
+   font-family: "Helvetica", sans-serif;"
+      }
+
+body {
+  background-image: url('webpagebackground.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
 }
-@media (min-aspect-ratio: 16/9) {
-    #myvideo {
-        width:100%;
-        height: auto;
-    }
-}
-@media (max-aspect-ratio: 16/9) {
-    #myvideo { 
-        width:auto;
-        height: 100%;
-    }
-}
-@media (max-width: 767px) {
-    #myvideo {
-        display: none;
-    }
-    body {
-        background: url('video.jpg');
-        background-size: cover;
-    }
-}
+    
+      img {
+          width: 65%;
+          height: 65%;
+      }
