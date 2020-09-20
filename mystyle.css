@@ -1,16 +1,18 @@
+#myVideo {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   ming-height: 100;
+
 h1 {
    color: rgb(255,255,255);
    text-align:center;
    font-family: "Helvetica", sans-serif;"
       }
 
-body {
-  background-image: url('webpagebackground.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  
-}
+
+ 
     
       img {
           width: 65%;
