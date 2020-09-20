@@ -1,9 +1,27 @@
+body {
+   margin: 0;
+   font-family: Arial;
+   font-size: 18px;
+
 #myVideo {
    position: fixed;
    right: 0;
    bottom: 0;
    min-width: 100%;
    ming-height: 100;
+   
+   }
+   
+   .banner {
+      position: fixed;
+      bottom: 0;
+      backgroung: rgba(0,0,0,0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+      
+   }
+  
 
 h1 {
    color: rgb(255,255,255);
