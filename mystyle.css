@@ -3,7 +3,7 @@ html, body {
    font-family: Arial;
    font-size: 18px;
 }
-   .container { position:relative; }
+ 
    
 
 #myVideo {
@@ -18,17 +18,7 @@ html, body {
   transform: translate(-50%, -50%);
    }
    
-  .overlay {
-     position: fixed;
-     top: 0;
-     left: 0;
-     z-index: 999;
-     background: rgba(0, 0, 0, 0.5);
-     color: #f1f1f1;
-     width: 100%;
-     padding: 20px;
-   }
-     
+  
   
 
 h1 {
