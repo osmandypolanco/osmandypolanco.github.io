@@ -3,6 +3,12 @@ html, body {
    font-family: Arial;
    font-size: 18px;
 }
+
+.banner {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
  
 .topnav {
   overflow: hidden;
