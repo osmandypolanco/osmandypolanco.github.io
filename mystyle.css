@@ -6,11 +6,11 @@ html, body {
  
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(255, 255, 255, .4);
 }
 
 .topnav a {
-  float: left;
+  float: center;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -23,10 +23,6 @@ html, body {
   color: black;
 }
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
 #myVideo {
  position: fixed;
