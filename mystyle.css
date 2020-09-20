@@ -2,9 +2,14 @@ body {
    margin: 0;
    font-family: Arial;
    font-size: 18px;
+   
+   
+   .container { position:relative; }
+   
 
 #myVideo {
-   position: fixed;
+   position: relative;
+   z-idex:0;
    right: 0;
    bottom: 0;
    min-width: 100%;
@@ -12,15 +17,15 @@ body {
    
    }
    
-   .banner {
-      position: fixed;
-      bottom: 0;
-      backgroung: rgba(0,0,0,0.5);
-      color: #f1f1f1;
-      width: 100%;
-      padding: 20px;
-      
+
+  .overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     
    }
+     
   
 
 h1 {
