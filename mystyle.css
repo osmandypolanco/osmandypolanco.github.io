@@ -58,26 +58,4 @@ h1 {
       }
 
 
-.homewrap {
-  position: relative;
-  height: 200px;
-  width: 257px;
-}
-
-.homeword {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-
-.homewrap:hover .homeword {
-  visibility: visible;
-  opacity: 1;
-}
-
 
