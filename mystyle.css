@@ -58,9 +58,9 @@ h1 {
       }
 
 .container1 {
-  position: relative;
+  position: fixed;
   text-align: center;
-  color: white;
+  color: #FFFFFF;
 }
 
 .home {
