@@ -2,8 +2,8 @@ html, body {
    margin: 0;
    font-family: Arial;
    font-size: 18px;
-   height: 100%;
-   width: 100%;
+   height: auto;
+   width: auto;
 }
 p {
    font-size: 22px;
