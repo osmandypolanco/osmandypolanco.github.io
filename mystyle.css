@@ -1,5 +1,6 @@
 
 html, body {
+   overflow: auto;
    margin: 0;
    font-family:"Segoe UI" , "Segoe" , "SegoeUI-Regular-final", Tahoma, Helvetica, Arial, sans-serif;
    font-weight:normal;
@@ -8,7 +9,11 @@ html, body {
    width: auto;
    min-width:500px;
 }
-
+div {
+   overflow: auto;
+   height: auto;
+   width: auto;
+}
 
 p {
    font-size: 22px;
@@ -38,6 +43,7 @@ p {
 
 
 #myVideo {
+   overflow: auto;
  position: fixed;
   top: 50%;
   left: 50%;
