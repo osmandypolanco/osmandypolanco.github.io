@@ -1,6 +1,6 @@
 
 html, body {
-   overflow: auto;
+   overflow: scroll;
    margin: 0;
    font-family:"Segoe UI" , "Segoe" , "SegoeUI-Regular-final", Tahoma, Helvetica, Arial, sans-serif;
    font-weight:normal;
@@ -10,7 +10,7 @@ html, body {
    min-width:500px;
 }
 div {
-   overflow: auto;
+   overflow: scroll;
    height: auto;
    width: auto;
 }
