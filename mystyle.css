@@ -1,13 +1,12 @@
 
-html, body {
-   overflow: scroll;
-   margin: 0;
-   font-family:"Segoe UI" , "Segoe" , "SegoeUI-Regular-final", Tahoma, Helvetica, Arial, sans-serif;
-   font-weight:normal;
-   font-size: 18px;
-   height: auto;
-   width: auto;
-   min-width:500px;
+html{
+   -ms-text-size-adjust:100%;
+   -webkit-text-size-adjust:100%
+}
+
+body{
+   margin:0;
+}
 }
 div {
    overflow: scroll;
