@@ -53,18 +53,21 @@ p {
 }
 
 .h2{
+   float: center;
 position: fixed;
   height: auto;
    width: auto;
 
 }
 .h3{
+   float: left;
 position: fixed;
   height: auto;
    width: auto;
 
 }
 .h4{
+   float: right;
 position: fixed;
   height: auto;
    width: auto;
