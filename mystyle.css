@@ -42,7 +42,7 @@ p {
 
 
 #myVideo {
-   overflow: auto;
+   overflow: absolute;
  position: fixed;
   top: 50%;
   left: 50%;
